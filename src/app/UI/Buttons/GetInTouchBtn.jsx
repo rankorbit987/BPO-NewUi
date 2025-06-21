@@ -1,15 +1,15 @@
 "use client"
 import React from 'react';
 
-const ContactUsButton = () => {
+const GetInTouchBtn = () => {
   return (
     <button 
       type="button"
       className="
         inline-flex items-center justify-center
-        rounded-full border-2 border-black
+        rounded-full border border-black
         bg-white px-6 py-3 pl-3
-        md:text-2xl text-lg font-medium text-black
+        text-base font-medium text-black
         transition-all duration-300 ease-in-out
         hover:bg-blue-600 hover:text-white hover:border-blue-600
         focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600
@@ -24,7 +24,7 @@ const ContactUsButton = () => {
         relative
         text-black
         bg-white
-        border-2 border-black
+        border border-black
         rounded-full
         flex items-center justify-center
         overflow-hidden
@@ -60,9 +60,9 @@ const ContactUsButton = () => {
           <path d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z" fill="currentColor" />
         </svg>
       </span>
-      <span className="ml-1">Contact Us</span>
+      <span className="ml-1">Get In Touch</span>
     </button>
   );
 };
 
-export default ContactUsButton;
+export default GetInTouchBtn;
