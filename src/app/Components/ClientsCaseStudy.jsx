@@ -7,7 +7,7 @@ import ContactUsButton from "../UI/Buttons/contactusBtn";
 export default function ClientCaseStudies() {
   return (
     <div className="w-full px-4 sm:px-6 md:px-8 lg:px-20 py-12 md:py-16 flex flex-col items-start bg-white max-w-[1440px] mx-auto">
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 md:mb-8 max-w-2xl leading-tight">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 md:mb-8 max-w-2xl leading-tight text-black">
         We pride ourselves in delivering above and beyond to all of our clients
       </h2>
       <div className="mb-8 sm:mb-10 md:mb-12 lg:mb-16">
@@ -50,8 +50,8 @@ export default function ClientCaseStudies() {
 
         {/* Card 2 - Purple */}
         <div className="bg-[#e4c3f7] rounded-xl flex flex-col justify-between p-5 sm:p-6 md:p-8 min-h-[320px] sm:min-h-[360px] md:min-h-[400px] lg:min-h-[440px] md:col-span-3">
-          <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#111]">£1.5m</p>
-          <p className="text-base sm:text-lg md:text-xl font-medium text-[#6b6b6b] mt-3 sm:mt-4 md:mt-5">
+          <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black">£1.5m</p> {/* Changed to text-black */}
+          <p className="text-base sm:text-lg md:text-xl font-medium text-black mt-3 sm:mt-4 md:mt-5"> {/* Changed to text-black */}
             Saving against delivery fees from previous suppliers
           </p>
         </div>
@@ -59,10 +59,10 @@ export default function ClientCaseStudies() {
         {/* Card 3 - Blue */}
         <div className="relative bg-[#98ccf9] rounded-xl flex flex-col justify-between p-5 sm:p-6 md:p-8 min-h-[320px] sm:min-h-[360px] md:min-h-[400px] lg:min-h-[440px] md:col-span-3">
           <div className="flex flex-col h-full justify-between">
-            <p className="text-xl sm:text-2xl md:text-2xl lg:text-3xl font-light">
+            <p className="text-xl sm:text-2xl md:text-2xl lg:text-3xl font-light text-black"> {/* Changed to text-black */}
               From <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">7</span> days
             </p>
-            <p className="text-base sm:text-lg md:text-xl font-medium text-[#111] mt-3 sm:mt-4 md:mt-5">
+            <p className="text-base sm:text-lg md:text-xl font-medium text-black mt-3 sm:mt-4 md:mt-5"> {/* Changed to text-black */}
               to 24 hours for initial customer response, vastly increasing
               overall customer satisfaction
             </p>

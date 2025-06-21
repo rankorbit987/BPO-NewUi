@@ -12,7 +12,7 @@ export default function Services() {
   };
 
   return (
-    <div className="w-full py-12 md:py-20 ">
+    <div className="w-full py-12 md:py-20 text-black bg-white"> {/* Added text-black here */}
       <div className="relative w-full max-w-full">
         {servicesData.map((item, index) => {
           const isActive = activeCard === index;
@@ -29,7 +29,7 @@ export default function Services() {
                 onClick={() => toggleCard(index)}
               >
                 <div className="flex flex-col text-left">
-                  <div className="text-xs sm:text-sm md:text-xs text-gray-500 uppercase tracking-wider mb-1 sm:mb-2">
+                  <div className="text-xs sm:text-sm md:text-xs uppercase tracking-wider mb-1 sm:mb-2"> {/* Removed text-gray-500 */}
                     Service {index + 1}
                   </div>
                   <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium">
@@ -51,7 +51,7 @@ export default function Services() {
 
               {!isActive && (
                 <div className="px-6 md:px-8 pb-4 md:pb-6 hidden md:group-hover:block">
-                  <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-700">
+                  <p className="text-base sm:text-lg md:text-xl leading-relaxed"> {/* Removed text-gray-700 */}
                     {item.content[0].description}
                   </p>
                 </div>
@@ -76,7 +76,7 @@ export default function Services() {
                       <div className="space-y-4 sm:space-y-6 md:space-y-8">
                         {item.content.map((service, idx) => (
                           <div key={idx} className="mb-4 sm:mb-6 md:mb-8">
-                            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-700">
+                            <p className="text-base sm:text-lg md:text-xl leading-relaxed"> {/* Removed text-gray-700 */}
                               {service.description}
                             </p>
                           </div>

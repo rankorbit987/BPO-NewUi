@@ -1,9 +1,10 @@
 "use client"
 import React from 'react'
+import Image from 'next/image'
 
 export default function AccoladesSection() {
   return (
-    <section className="bg-white py-12 sm:py-16 md:py-20 px-5 sm:px-10 md:px-16 lg:px-20">
+    <section className="bg-white py-12 sm:py-16 md:py-20 px-5 sm:px-10 md:px-16 lg:px-20 text-black">
       {/* Intro paragraph */}
       <div className="mb-10 sm:mb-14 md:mb-16">
         <p className="text-2xl sm:text-3xl md:text-4xl leading-normal sm:leading-relaxed md:leading-relaxed">
@@ -20,9 +21,11 @@ export default function AccoladesSection() {
         {/* First accolade - Financial Times */}
         <div className="flex flex-col md:flex-row gap-6 sm:gap-8 mb-8 sm:mb-10 items-start">
           <div className="md:w-1/4 flex justify-center">
-            <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/5/55/Financial_Times_logo_2020.svg"
+            <Image 
+              src="/Images/IntroductionImages/0.jpg"
               alt="Financial Times Badge"
+              width={250}
+              height={100}
               className="object-contain w-full max-w-[180px] sm:max-w-[200px] md:max-w-[250px] h-auto"
             />
           </div>
@@ -36,9 +39,11 @@ export default function AccoladesSection() {
         {/* Second accolade - MCA Membership */}
         <div className="flex flex-col md:flex-row gap-6 sm:gap-8 mb-8 sm:mb-10 items-start">
           <div className="md:w-1/4 flex justify-center">
-            <img 
-              src="https://mca.org.uk/wp-content/uploads/2022/11/MCA-logo.png"
+            <Image 
+              src="/Images/IntroductionImages/1.svg"
               alt="MCA Membership"
+              width={180}
+              height={100}
               className="object-contain w-full max-w-[150px] sm:max-w-[160px] md:max-w-[180px] h-auto"
             />
           </div>
@@ -52,9 +57,11 @@ export default function AccoladesSection() {
         {/* Third accolade - Cyber Essentials */}
         <div className="flex flex-col md:flex-row gap-6 sm:gap-8 mb-8 sm:mb-10 items-start">
           <div className="md:w-1/4 flex justify-center">
-            <img 
-              src="https://upload.wikimedia.org/wikipedia/en/9/99/Cyber_Essentials_Badge.png"
+            <Image 
+              src="/Images/IntroductionImages/2.png"
               alt="Cyber Essentials Certified"
+              width={80}
+              height={80}
               className="object-contain w-[60px] sm:w-[70px] md:w-[80px] h-[60px] sm:h-[70px] md:h-[80px]"
             />
           </div>
@@ -68,9 +75,11 @@ export default function AccoladesSection() {
         {/* Fourth accolade - MCA Awards */}
         <div className="flex flex-col md:flex-row gap-6 sm:gap-8 items-start">
           <div className="md:w-1/4 flex justify-center">
-            <img 
-              src="https://mca.org.uk/wp-content/uploads/2023/11/MCA_Awards_2025_Finalist.png"
+            <Image 
+              src="/Images/IntroductionImages/3.png"
               alt="MCA 2025 Finalist"
+              width={80}
+              height={80}
               className="object-contain w-[60px] sm:w-[70px] md:w-[80px] h-[60px] sm:h-[70px] md:h-[80px]"
             />
           </div>

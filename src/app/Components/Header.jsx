@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white px-[20px] lg:px-20 py-4 ">
-      <div className="flex justify-between items-center w-full">
+      <div className="flex justify-between items-center w-full text-black">
         {/* Logo */}
         <div className="text-2xl font-light">
           <span className="font-bold">leading</span>resolutions

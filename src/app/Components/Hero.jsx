@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-white px-4 sm:px-6 lg:px-20 py-20 md:py-0">
       <div className="text-center md:text-left w-full ">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium leading-tight sm:leading-snug">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium leading-tight sm:leading-snug text-black">
           Your{' '}
           <span className="inline-block relative">
             <div className="flip-wrapper">

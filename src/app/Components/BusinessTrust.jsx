@@ -44,7 +44,7 @@ export default function BusinessTrust() {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+    <div className="max-w-7xl mx-auto px-4 sm:px-12 lg:px-20 py-12 md:py-20 bg-white text-black">
       {/* Heading */}
       <div className=" mb-12 md:mb-20">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 md:mb-8 max-w-5xl leading-tight">
