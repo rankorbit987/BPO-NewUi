@@ -3,35 +3,45 @@ import React, { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [active, setActive] = useState("");
+
+  const navLinks = [
+    { href: "#about-us", label: "About us", id: "about-us" },
+    { href: "#services-section", label: "Services", id: "services-section" },
+    { href: "/", label: "Careers", id: "careers" },
+    { href: "/", label: "Journal", id: "journal" },
+  ];
+
+  const getLinkClasses = (id) =>
+    `relative text-xl font-semibold text-black after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full ${
+      active === id ? "after:w-full" : ""
+    }`;
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white px-[20px] lg:px-20 py-4">
       <div className="flex justify-between items-center w-full text-black">
-        {/* Logo */}
-        <div className="text-2xl font-light">
+        {/* Clickable Logo */}
+        <a href="/" className="text-2xl font-light">
           <span className="font-bold">leading</span>resolutions
-        </div>
+        </a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center">
           <div className="flex items-center gap-8">
-            <a href="#about-us" className="text-xl font-medium text-black">
-              About us
-            </a>
-            <a href="#services-section" className="text-xl font-medium text-black">
-              Services
-            </a>
-            
-            <a href="/" className="text-xl font-medium text-black">
-              Careers
-            </a>
-            <a href="/" className="text-xl font-medium text-black">
-              Journal
-            </a>
+            {navLinks.map((link) => (
+              <a
+                key={link.id}
+                href={link.href}
+                className={getLinkClasses(link.id)}
+                onClick={() => setActive(link.id)}
+              >
+                {link.label}
+              </a>
+            ))}
           </div>
           <div className="ml-20">
             <a href="#contact-form">
-              <button className="border border-black rounded-full px-6 py-2 text-xl font-medium text-black transition duration-300 hover:bg-blue-500 hover:text-white">
+              <button className="border-2 cursor-pointer border-black rounded-full px-6 py-2 text-xl font-semibold text-black transition duration-300 hover:bg-blue-500 hover:text-white">
                 Let's Talk
               </button>
             </a>
@@ -87,37 +97,22 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center gap-6 mt-10">
-          
-          <a
-            href="#about-us"
-            className="text-xl font-medium"
-            onClick={() => setIsOpen(false)}
-          >
-            About us
-          </a>
+          {navLinks.map((link) => (
+            <a
+              key={link.id}
+              href={link.href}
+              className={`relative text-xl font-semibold after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full ${
+                active === link.id ? "after:w-full" : ""
+              }`}
+              onClick={() => {
+                setIsOpen(false);
+                setActive(link.id);
+              }}
+            >
+              {link.label}
+            </a>
+          ))}
 
-          <a
-            href="#services-section"
-            className="text-xl font-medium"
-            onClick={() => setIsOpen(false)}
-          >
-            Services
-          </a>
-
-          <a
-            href="/"
-            className="text-xl font-medium"
-            onClick={() => setIsOpen(false)}
-          >
-            Careers
-          </a>
-          <a
-            href="/"
-            className="text-xl font-medium"
-            onClick={() => setIsOpen(false)}
-          >
-            Journal
-          </a>
           <a href="#contact-form" onClick={() => setIsOpen(false)}>
             <button className="mt-8 border border-white rounded-full px-8 py-3 text-xl font-medium text-black bg-white cursor-pointer transition duration-300 hover:bg-blue-500 hover:text-white">
               Let's Talk

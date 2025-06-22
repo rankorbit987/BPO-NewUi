@@ -7,9 +7,9 @@ export default function AboutUs() {
     <section id="about-us" className="bg-white py-12 sm:py-16 md:py-20 px-5 sm:px-10 md:px-16 lg:px-20 text-black">
       {/* Intro paragraph */}
       <div className="mb-10 sm:mb-14 md:mb-16">
-        <p className="text-2xl sm:text-3xl md:text-4xl leading-normal sm:leading-relaxed md:leading-relaxed">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 md:mb-8 max-w-5xl leading-tight">
           We are the alternative to the Big 4. We are technology consultants with a difference; we get things done, offering independent advice with your best interests at heart, combining expertise, experience and commercial savvy to deliver your desired business outcomes.
-        </p>
+        </h2>
       </div>
       
       <div className="ml-auto max-w-4xl w-full">
