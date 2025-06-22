@@ -1,12 +1,20 @@
-"use client"
-import React from 'react';
+"use client";
+import React from "react";
 
 const ContactUsButton = () => {
+  const scrollToContactForm = () => {
+    const target = document.getElementById("contact-form");
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <button 
       type="button"
+      onClick={scrollToContactForm}
       className="
-        inline-flex items-center justify-center
+        inline-flex items-center justify-center cursor-pointer
         rounded-full border-2 border-black
         bg-white px-6 py-3 pl-3
         md:text-2xl text-lg font-medium text-black

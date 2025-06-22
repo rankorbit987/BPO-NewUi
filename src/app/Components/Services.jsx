@@ -12,7 +12,7 @@ export default function Services() {
   };
 
   return (
-    <div className="w-full py-12 md:py-20 text-black bg-white"> {/* Added text-black here */}
+    <section id="services-section" className="w-full py-12 md:py-20 text-black bg-white"> {/* Added text-black here */}
       <div className="relative w-full max-w-full">
         {servicesData.map((item, index) => {
           const isActive = activeCard === index;
@@ -108,6 +108,6 @@ export default function Services() {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }

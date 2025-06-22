@@ -2,9 +2,9 @@
 import React from 'react'
 import Image from 'next/image'
 
-export default function AccoladesSection() {
+export default function AboutUs() {
   return (
-    <section className="bg-white py-12 sm:py-16 md:py-20 px-5 sm:px-10 md:px-16 lg:px-20 text-black">
+    <section id="about-us" className="bg-white py-12 sm:py-16 md:py-20 px-5 sm:px-10 md:px-16 lg:px-20 text-black">
       {/* Intro paragraph */}
       <div className="mb-10 sm:mb-14 md:mb-16">
         <p className="text-2xl sm:text-3xl md:text-4xl leading-normal sm:leading-relaxed md:leading-relaxed">
