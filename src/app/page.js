@@ -6,6 +6,7 @@ import BusinessTrust from "./Components/BusinessTrust";
 import InTheNumbers from "./Components/IntheNumbers";
 import ContactUs from "./Components/ContactForm";
 import AboutUs from "./Components/AboutUs";
+import FaqSection from "./Components/FAQ";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <ClientCaseStudies/>
     <BusinessTrust/>
     <InTheNumbers/>
+    <FaqSection/>
     <ContactUs/>
     </>
   );

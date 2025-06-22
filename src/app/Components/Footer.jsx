@@ -102,7 +102,7 @@ const Footer = () => {
         <div className="flex flex-wrap gap-4 sm:gap-6 text-gray-400 text-xs sm:text-sm">
   <a href="#about-us" className="hover:text-white transition">About us</a>
   <a href="#services-section" className="hover:text-white transition">Services</a>
-  <a href="/" className="hover:text-white transition">Careers</a>
+  <a href="#faq-section" className="hover:text-white transition">FAQ</a>
   <a href="/" className="hover:text-white transition">Journal</a>
 </div>
 

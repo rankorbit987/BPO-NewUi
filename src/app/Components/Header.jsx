@@ -8,7 +8,7 @@ const Navbar = () => {
   const navLinks = [
     { href: "#about-us", label: "About us", id: "about-us" },
     { href: "#services-section", label: "Services", id: "services-section" },
-    { href: "/", label: "Careers", id: "careers" },
+    { href: "#faq-section", label: "FAQ", id: "faq-section" },
     { href: "/", label: "Journal", id: "journal" },
   ];
 
@@ -18,7 +18,7 @@ const Navbar = () => {
     }`;
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white px-[20px] lg:px-20 py-4">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white px-[20px] lg:px-20 py-4 border-b border-gray-200 shadow-sm">
       <div className="flex justify-between items-center w-full text-black">
         {/* Clickable Logo */}
         <a href="/" className="text-2xl font-light">
