@@ -65,7 +65,7 @@ export default function FaqSection() {
           {faqData.map((faq, index) => (
             <li key={index}>
               <button
-                className="relative flex gap-2 items-center w-full py-5 text-base font-semibold text-left border-t md:text-lg border-base-content/10"
+                className="relative flex gap-2 items-center w-full py-5 text-base font-medium text-left border-t md:text-lg border-base-content/10"
                 aria-expanded={activeIndex === index ? "true" : "false"}
                 onClick={() => toggleFAQ(index)}
               >

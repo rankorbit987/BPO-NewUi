@@ -8,6 +8,7 @@ import {
   FaInstagram,
   FaPinterest,
   FaTiktok,
+  FaYoutube,
 } from "react-icons/fa6";
 import GetInTouchButton from "../UI/Buttons/GetInTouchBtn";
 
@@ -46,25 +47,22 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Careers Section */}
+        {/* Location Section replacing Careers */}
         <div className="flex flex-col items-start text-left w-full sm:w-auto">
-          <div className="relative group w-full sm:w-72 h-40 sm:h-44 overflow-hidden rounded-2xl">
-            <img
-              src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80"
-              alt="Careers"
-              className="w-full h-full object-cover transition-transform duration-300 transform group-hover:scale-105"
-            />
-            <a
-              href="#"
-              className="absolute bottom-2 right-2 w-10 h-10 rounded-full flex items-center justify-center bg-black text-white hover:bg-white hover:text-black transition-colors duration-300"
-            >
-              <ArrowRight className="w-4 h-4" />
-            </a>
+          <div className="relative w-full sm:w-72 h-40 sm:h-44 overflow-hidden rounded-2xl border border-gray-300">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27221.30370572093!2d74.25073347375427!3d31.455773761267188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190115b05a98c3%3A0xd62437d60099e089!2sBPO%20Brigade!5e0!3m2!1sen!2s!4v1719174940000!5m2!1sen!2s"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-          <h3 className="text-lg font-semibold mt-4">Careers</h3>
+          <h3 className="text-lg font-semibold mt-4">Our Location</h3>
           <p className="mt-1 max-w-xs text-sm text-gray-300">
-            Work with the UK’s Very Best Business Focused Technology
-            Consultancy.
+            90 Johar, Block D2 Block D 2 Phase 1 Town, Lahore, 54782
           </p>
         </div>
       </div>
@@ -74,49 +72,32 @@ const Footer = () => {
 
       {/* Awards Row */}
       <div className="flex flex-wrap justify-center sm:justify-start items-center gap-6 sm:gap-10 mb-10 overflow-hidden">
-        <img
-          src="/Images/IntroductionImages/0.jpg"
-          alt="FT Award"
-          className="h-12 sm:h-16 object-contain"
-        />
-        <img
-          src="/Images/IntroductionImages/1.svg"
-          alt="MCA"
-          className="h-8 sm:h-10 object-contain"
-        />
-        <img
-          src="/Images/IntroductionImages/2.png"
-          alt="Cyber Essentials"
-          className="h-8 sm:h-10 object-contain"
-        />
-        <img
-          src="/Images/IntroductionImages/3.png"
-          alt="MCA 2025"
-          className="h-8 sm:h-10 object-contain"
-        />
+        <img src="/Images/IntroductionImages/0.jpg" alt="FT Award" className="h-12 sm:h-16 object-contain" />
+        <img src="/Images/IntroductionImages/1.svg" alt="MCA" className="h-8 sm:h-10 object-contain" />
+        <img src="/Images/IntroductionImages/2.png" alt="Cyber Essentials" className="h-8 sm:h-10 object-contain" />
+        <img src="/Images/IntroductionImages/3.png" alt="MCA 2025" className="h-8 sm:h-10 object-contain" />
       </div>
 
       {/* Bottom Row */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 sm:gap-4 overflow-hidden">
-        {/* Policy Links */}
         <div className="flex flex-wrap gap-4 sm:gap-6 text-gray-400 text-xs sm:text-sm">
-  <a href="#about-us" className="hover:text-white transition">About us</a>
-  <a href="#services-section" className="hover:text-white transition">Services</a>
-  <a href="#faq-section" className="hover:text-white transition">FAQ</a>
-  <a href="/" className="hover:text-white transition">Journal</a>
-</div>
+          <a href="#about-us" className="hover:text-white transition">About us</a>
+          <a href="#services-section" className="hover:text-white transition">Services</a>
+          <a href="#faq-section" className="hover:text-white transition">FAQ</a>
+          <a href="/" className="hover:text-white transition">Journal</a>
+        </div>
 
-        {/* Social Icons & Credit */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
           <span className="text-gray-500 text-xs sm:text-sm">Follow Us On</span>
           <div className="flex gap-2 overflow-hidden">
             {[
-              { icon: <FaLinkedin className="w-5 h-5" />, link: "#" },
-              { icon: <FaXTwitter className="w-5 h-5" />, link: "#" },
-              { icon: <FaInstagram className="w-5 h-5" />, link: "#" },
-              { icon: <FaFacebook className="w-5 h-5" />, link: "#" },
-              { icon: <FaPinterest className="w-5 h-5" />, link: "#" },
-              { icon: <FaTiktok className="w-5 h-5" />, link: "#" },
+              { icon: <FaLinkedin className="w-5 h-5" />, link: "https://www.linkedin.com/company/bpobrigade/" },
+              { icon: <FaXTwitter className="w-5 h-5" />, link: "https://x.com/bpo_brigade" },
+              { icon: <FaInstagram className="w-5 h-5" />, link: "https://www.instagram.com/bpobrigade" },
+              { icon: <FaFacebook className="w-5 h-5" />, link: "https://www.facebook.com/bpobrigade/" },
+              { icon: <FaPinterest className="w-5 h-5" />, link: "https://www.pinterest.com/bpobrigade/" },
+              { icon: <FaTiktok className="w-5 h-5" />, link: "https://www.tiktok.com/@bpobrigade" },
+              { icon: <FaYoutube className="w-5 h-5" />, link: "https://www.youtube.com/@BPOBrigade" },
             ].map((item, idx) => (
               <a
                 key={idx}

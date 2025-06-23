@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/image";
+import { ShieldCheck, Users, Bot, TrendingUp } from "lucide-react";
 
 export default function AboutUs() {
   return (
@@ -10,7 +10,7 @@ export default function AboutUs() {
     >
       {/* Intro paragraph */}
       <div className="mb-10 sm:mb-14 md:mb-16 max-w-5xl">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight mb-10 text-black">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl md:font-semibold font-medium leading-tight mb-10 text-black">
           At BPO Brigade, we believe every task deserves genuine care. We began small, serving local clients with one clear focus — quality. Through well-defined processes, continuous feedback, and full accountability, we built strong client trust from day one.
         </h1>
       </div>
@@ -19,20 +19,14 @@ export default function AboutUs() {
         {/* Border line */}
         <div className="border-t-3 border-black mb-8 sm:mb-10 md:mb-12"></div>
 
-        <h2 className="text-3xl sm:text-4xl xl:text-5xl font-medium mb-8 sm:mb-10 text-left">
+        <h2 className="text-2xl sm:text-4xl xl:text-5xl font-medium mb-8 sm:mb-10 text-left">
           Our Growth and Values
         </h2>
 
-        {/* Value 1 */}
+        {/* Value 1 - Integrity */}
         <div className="flex flex-col md:flex-row gap-6 sm:gap-8 mb-8 sm:mb-10 items-start">
           <div className="md:w-1/4 flex justify-center">
-            <Image
-              src="/Images/IntroductionImages/0.jpg"
-              alt="Integrity"
-              width={250}
-              height={100}
-              className="object-contain w-full max-w-[180px] sm:max-w-[200px] md:max-w-[250px] h-auto"
-            />
+            <ShieldCheck className="w-20 h-20 text-[#1D4ED8]" />
           </div>
           <div className="md:w-3/4 text-base sm:text-lg leading-relaxed">
             <p>
@@ -41,16 +35,10 @@ export default function AboutUs() {
           </div>
         </div>
 
-        {/* Value 2 */}
+        {/* Value 2 - People Investment */}
         <div className="flex flex-col md:flex-row gap-6 sm:gap-8 mb-8 sm:mb-10 items-start">
           <div className="md:w-1/4 flex justify-center">
-            <Image
-              src="/Images/IntroductionImages/1.svg"
-              alt="People Investment"
-              width={180}
-              height={100}
-              className="object-contain w-full max-w-[150px] sm:max-w-[160px] md:max-w-[180px] h-auto"
-            />
+            <Users className="w-20 h-20 text-[#10B981]" />
           </div>
           <div className="md:w-3/4 text-base sm:text-lg leading-relaxed">
             <p>
@@ -59,16 +47,10 @@ export default function AboutUs() {
           </div>
         </div>
 
-        {/* Value 3 */}
+        {/* Value 3 - Automation & Tools */}
         <div className="flex flex-col md:flex-row gap-6 sm:gap-8 mb-8 sm:mb-10 items-start">
           <div className="md:w-1/4 flex justify-center">
-            <Image
-              src="/Images/IntroductionImages/2.png"
-              alt="Tools & Automation"
-              width={80}
-              height={80}
-              className="object-contain w-[60px] sm:w-[70px] md:w-[80px] h-[60px] sm:h-[70px] md:h-[80px]"
-            />
+            <Bot className="w-20 h-20 text-[#F59E0B]" />
           </div>
           <div className="md:w-3/4 text-base sm:text-lg leading-relaxed">
             <p>
@@ -77,16 +59,10 @@ export default function AboutUs() {
           </div>
         </div>
 
-        {/* Value 4 */}
+        {/* Value 4 - Client Success Story */}
         <div className="flex flex-col md:flex-row gap-6 sm:gap-8 items-start">
           <div className="md:w-1/4 flex justify-center">
-            <Image
-              src="/Images/IntroductionImages/3.png"
-              alt="Client Success Story"
-              width={80}
-              height={80}
-              className="object-contain w-[60px] sm:w-[70px] md:w-[80px] h-[60px] sm:h-[70px] md:h-[80px]"
-            />
+            <TrendingUp className="w-20 h-20 text-[#EF4444]" />
           </div>
           <div className="md:w-3/4 text-base sm:text-lg leading-relaxed">
             <p>
