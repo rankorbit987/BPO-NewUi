@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Plus, Minus } from "lucide-react";
 import ServicesCard from "../UI/Cards/servicesCard";
-import servicesData from "../../../public/Data/ServicesData";
+import servicesData from "../Data/ServicesData";
 
 export default function Services() {
   const [activeCard, setActiveCard] = useState(null);
