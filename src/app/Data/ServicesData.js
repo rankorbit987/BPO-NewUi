@@ -1,6 +1,5 @@
 import ContactUsButton from "@/app/UI/Buttons/contactusBtn";
 
-
 const servicesData = [
   {
     title: "Automation AI Solutions",
@@ -22,13 +21,12 @@ const servicesData = [
     hoverColor: "hover:bg-blue-400",
     activeColor: "bg-blue-400",
     caseStudies: [
-      { image: "/images/ServiceCardsImages/imag1.webp", label: "CASE STUDY", title: "Streamlining Customer Support for a National Retailer" },
-      { image: "/images/ServiceCardsImages/imag2.webp", label: "CASE STUDY", title: "Back-Office Optimization for a Financial Services Provider" },
-      { image: "/images/ServiceCardsImages/imag3.webp", label: "CASE STUDY", title: "AI Chatbot Deployment for Healthcare Appointment Booking" },
-      { image: "/images/ServiceCardsImages/imag4.webp", label: "CASE STUDY", title: "Global Voice AI Call Center Rollout" }
+      { image: "https://tse3.mm.bing.net/th?id=OIP.GV8KsgeVL717h5m18luZQwHaHa&pid=Api", label: "CASE STUDY", title: "Streamlining Customer Support for a National Retailer" },
+      { image: "https://tse3.mm.bing.net/th?id=OIP.GV8KsgeVL717h5m18luZQwHaHa&pid=Api", label: "CASE STUDY", title: "Back-Office Optimization for a Financial Services Provider" },
+      { image: "https://tse3.mm.bing.net/th?id=OIP.GV8KsgeVL717h5m18luZQwHaHa&pid=Api", label: "CASE STUDY", title: "AI Chatbot Deployment for Healthcare Appointment Booking" },
+      { image: "https://tse3.mm.bing.net/th?id=OIP.GV8KsgeVL717h5m18luZQwHaHa&pid=Api", label: "CASE STUDY", title: "Global Voice AI Call Center Rollout" }
     ]
   },
-
   {
     title: "Customer Support",
     content: [
@@ -53,12 +51,11 @@ const servicesData = [
     hoverColor: "hover:bg-red-400",
     activeColor: "bg-red-400",
     caseStudies: [
-      { image: "/images/ServiceCardsImages/imag1.webp", label: "CASE STUDY", title: "Multichannel Support Expansion for an E-commerce Platform" },
-      { image: "/images/ServiceCardsImages/imag2.webp", label: "CASE STUDY", title: "Invoice Processing Overhaul for a Global Manufacturer" },
-      { image: "/images/ServiceCardsImages/imag3.webp", label: "CASE STUDY", title: "24/7 Customer Support Launch for International Airline" }
+      { image: "https://tse2.mm.bing.net/th?id=OIP.wRNQ2rnIxm_qt4GqcTdh9QHaHa&pid=Api", label: "CASE STUDY", title: "Multichannel Support Expansion for an E-commerce Platform" },
+      { image: "https://tse2.mm.bing.net/th?id=OIP.wRNQ2rnIxm_qt4GqcTdh9QHaHa&pid=Api", label: "CASE STUDY", title: "Invoice Processing Overhaul for a Global Manufacturer" },
+      { image: "https://tse2.mm.bing.net/th?id=OIP.wRNQ2rnIxm_qt4GqcTdh9QHaHa&pid=Api", label: "CASE STUDY", title: "24/7 Customer Support Launch for International Airline" }
     ]
   },
-
   {
     title: "Virtual Assistant",
     content: [
@@ -83,14 +80,13 @@ const servicesData = [
     hoverColor: "hover:bg-green-400",
     activeColor: "bg-green-400",
     caseStudies: [
-      { image: "/images/ServiceCardsImages/imag1.webp", label: "CASE STUDY", title: "Scalable Data Entry Solution for a Healthcare Network" },
-      { image: "/images/ServiceCardsImages/imag2.webp", label: "CASE STUDY", title: "Back-Office Process Automation for a Financial Services Provider" },
-      { image: "/images/ServiceCardsImages/imag3.webp", label: "CASE STUDY", title: "Virtual Assistant Services for Real Estate Firm" },
-      { image: "/images/ServiceCardsImages/imag4.webp", label: "CASE STUDY", title: "Remote Admin Support for Tech Startups" },
-      { image: "/images/ServiceCardsImages/imag5.webp", label: "CASE STUDY", title: "Appointment Coordination for Medical Clinics" }
+      { image: "https://tse3.mm.bing.net/th?id=OIP.XHFIZhnLP0jvsXVM9p7dRwHaHa&pid=Api", label: "CASE STUDY", title: "Scalable Data Entry Solution for a Healthcare Network" },
+      { image: "https://tse3.mm.bing.net/th?id=OIP.XHFIZhnLP0jvsXVM9p7dRwHaHa&pid=Api", label: "CASE STUDY", title: "Back-Office Process Automation for a Financial Services Provider" },
+      { image: "https://tse3.mm.bing.net/th?id=OIP.XHFIZhnLP0jvsXVM9p7dRwHaHa&pid=Api", label: "CASE STUDY", title: "Virtual Assistant Services for Real Estate Firm" },
+      { image: "https://tse3.mm.bing.net/th?id=OIP.XHFIZhnLP0jvsXVM9p7dRwHaHa&pid=Api", label: "CASE STUDY", title: "Remote Admin Support for Tech Startups" },
+      { image: "https://tse3.mm.bing.net/th?id=OIP.XHFIZhnLP0jvsXVM9p7dRwHaHa&pid=Api", label: "CASE STUDY", title: "Appointment Coordination for Medical Clinics" }
     ]
   },
-
   {
     title: "Appointment Setting",
     content: [
@@ -115,13 +111,12 @@ const servicesData = [
     hoverColor: "hover:bg-yellow-400",
     activeColor: "bg-yellow-400",
     caseStudies: [
-      { image: "/images/ServiceCardsImages/imag1.webp", label: "CASE STUDY", title: "Appointment Setting Success for SaaS Platform Expansion" },
-      { image: "/images/ServiceCardsImages/imag2.webp", label: "CASE STUDY", title: "Lead Conversion Boost for B2B Service Provider" },
-      { image: "/images/ServiceCardsImages/imag3.webp", label: "CASE STUDY", title: "Outreach Strategy for International Consulting Firm" },
-      { image: "/images/ServiceCardsImages/imag4.webp", label: "CASE STUDY", title: "Cold Call Appointment Growth for Insurance Brokerage" }
+      { image: "https://tse2.mm.bing.net/th?id=OIP.CUS64s0R3E5bnW0PknsdxwHaHa&pid=Api", label: "CASE STUDY", title: "Appointment Setting Success for SaaS Platform Expansion" },
+      { image: "https://tse2.mm.bing.net/th?id=OIP.CUS64s0R3E5bnW0PknsdxwHaHa&pid=Api", label: "CASE STUDY", title: "Lead Conversion Boost for B2B Service Provider" },
+      { image: "https://tse2.mm.bing.net/th?id=OIP.CUS64s0R3E5bnW0PknsdxwHaHa&pid=Api", label: "CASE STUDY", title: "Outreach Strategy for International Consulting Firm" },
+      { image: "https://tse2.mm.bing.net/th?id=OIP.CUS64s0R3E5bnW0PknsdxwHaHa&pid=Api", label: "CASE STUDY", title: "Cold Call Appointment Growth for Insurance Brokerage" }
     ]
   },
-
   {
     title: "Marketing Campaigns",
     content: [
@@ -146,14 +141,13 @@ const servicesData = [
     hoverColor: "hover:bg-purple-400",
     activeColor: "bg-purple-400",
     caseStudies: [
-      { image: "/images/ServiceCardsImages/imag1.webp", label: "CASE STUDY", title: "Lead Generation Campaign for Tech Startup" },
-      { image: "/images/ServiceCardsImages/imag2.webp", label: "CASE STUDY", title: "Multichannel Marketing Rollout for National Franchise" },
-      { image: "/images/ServiceCardsImages/imag3.webp", label: "CASE STUDY", title: "Paid Ad Conversion Optimization for SaaS Company" },
-      { image: "/images/ServiceCardsImages/imag4.webp", label: "CASE STUDY", title: "Email Automation Campaign for eCommerce Brand" },
-      { image: "/images/ServiceCardsImages/imag5.webp", label: "CASE STUDY", title: "Social Media Growth Strategy for Global Apparel Brand" }
+      { image: "https://tse2.mm.bing.net/th?id=OIP.wRNQ2rnIxm_qt4GqcTdh9QHaHa&pid=Api", label: "CASE STUDY", title: "Lead Generation Campaign for Tech Startup" },
+      { image: "https://tse2.mm.bing.net/th?id=OIP.wRNQ2rnIxm_qt4GqcTdh9QHaHa&pid=Api", label: "CASE STUDY", title: "Multichannel Marketing Rollout for National Franchise" },
+      { image: "https://tse2.mm.bing.net/th?id=OIP.wRNQ2rnIxm_qt4GqcTdh9QHaHa&pid=Api", label: "CASE STUDY", title: "Paid Ad Conversion Optimization for SaaS Company" },
+      { image: "https://tse2.mm.bing.net/th?id=OIP.wRNQ2rnIxm_qt4GqcTdh9QHaHa&pid=Api", label: "CASE STUDY", title: "Email Automation Campaign for eCommerce Brand" },
+      { image: "https://tse2.mm.bing.net/th?id=OIP.wRNQ2rnIxm_qt4GqcTdh9QHaHa&pid=Api", label: "CASE STUDY", title: "Social Media Growth Strategy for Global Apparel Brand" }
     ]
   },
-
   {
     title: "Back-Office Optimization",
     content: [
@@ -174,9 +168,9 @@ const servicesData = [
     hoverColor: "hover:bg-teal-400",
     activeColor: "bg-teal-400",
     caseStudies: [
-      { image: "/images/ServiceCardsImages/imag1.webp", label: "CASE STUDY", title: "Invoice Processing Overhaul for a Global Manufacturer" },
-      { image: "/images/ServiceCardsImages/imag2.webp", label: "CASE STUDY", title: "Data Entry Automation for Healthcare Network" },
-      { image: "/images/ServiceCardsImages/imag3.webp", label: "CASE STUDY", title: "Back-Office Workflow Automation for SaaS Enterprise" }
+      { image: "https://tse2.mm.bing.net/th?id=OIP.wRNQ2rnIxm_qt4GqcTdh9QHaHa&pid=Api", label: "CASE STUDY", title: "Invoice Processing Overhaul for a Global Manufacturer" },
+      { image: "https://tse2.mm.bing.net/th?id=OIP.wRNQ2rnIxm_qt4GqcTdh9QHaHa&pid=Api", label: "CASE STUDY", title: "Data Entry Automation for Healthcare Network" },
+      { image: "https://tse2.mm.bing.net/th?id=OIP.wRNQ2rnIxm_qt4GqcTdh9QHaHa&pid=Api", label: "CASE STUDY", title: "Back-Office Workflow Automation for SaaS Enterprise" }
     ]
   }
 ];
