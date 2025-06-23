@@ -1,15 +1,25 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      // Add other domains if needed
+      {
+        protocol: 'https',
+        hostname: 'tse3.mm.bing.net',
+      },
+      {
+        protocol: 'https',
+        hostname: 'tse2.mm.bing.net',
+      },
+    ],
     domains: [
       'www.statista.com',
       'mca.org.uk',
       'upload.wikimedia.org',
-      "img.freepik.com", "thumb.dreamstime.com",
-      'tse1.mm.bing.net',
-      'tse2.mm.bing.net',
-      'tse3.mm.bing.net',
-      'tse4.mm.bing.net',
       
     ]
   }
