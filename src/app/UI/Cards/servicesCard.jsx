@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";  // <--- you missed this import!
 import { ArrowRight } from "lucide-react";
 
 const CaseStudyCard = ({ image, label, title }) => {
@@ -8,10 +9,11 @@ const CaseStudyCard = ({ image, label, title }) => {
       <div className="flex md:flex-row flex-col h-full">
         {/* Image Section */}
         <div className="relative md:w-2/5 w-full h-60 md:h-full">
-          <img 
+          <Image 
             src={image} 
             alt={title} 
-            className="w-full h-full object-cover" 
+            fill
+            className="object-cover"
           />
           <div className="absolute top-2 left-2 bg-gray-300 text-black text-xs px-2 py-1 rounded transition-all duration-300 group-hover/card:bg-black group-hover/card:text-white">
             {label}
