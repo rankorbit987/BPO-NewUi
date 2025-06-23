@@ -1,4 +1,5 @@
-import ContactUsButton from "../UI/Buttons/contactusBtn";
+import ContactUsButton from "@/app/UI/Buttons/contactusBtn";
+
 
 const servicesData = [
   {

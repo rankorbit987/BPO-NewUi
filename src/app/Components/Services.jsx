@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { Plus, Minus } from "lucide-react";
-import servicesData from "../Data/servicesData";
 import ServicesCard from "../UI/Cards/servicesCard";
+import servicesData from "../../../public/Data/ServicesData";
 
 export default function Services() {
   const [activeCard, setActiveCard] = useState(null);
