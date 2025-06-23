@@ -14,7 +14,7 @@ export default function ClientCaseStudies() {
         <ContactUsButton />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-7 gap-4 sm:gap-5 md:gap-6 lg:gap-8 w-full max-w-[1200px]">
+      <div className="grid grid-cols-1 md:grid-cols-7 gap-4 sm:gap-5 md:gap-6 lg:gap-8 w-full">
         {/* Card 1 - With Background Image (wider) */}
         <div 
           className="relative rounded-xl overflow-hidden text-white flex flex-col justify-between p-5 sm:p-6 md:p-8 min-h-[320px] sm:min-h-[360px] md:min-h-[400px] lg:min-h-[440px] md:col-span-4 group transition-all duration-500 ease-in-out cursor-pointer"
