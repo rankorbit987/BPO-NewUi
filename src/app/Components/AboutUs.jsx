@@ -18,7 +18,7 @@ export default function AboutUs() {
 
       <div className="ml-auto max-w-4xl w-full">
         {/* Border line */}
-        <div className="border-t border-black mb-8 sm:mb-10 md:mb-12"></div>
+        <div className="border-t-3 border-black mb-8 sm:mb-10 md:mb-12"></div>
 
         <h2 className="text-3xl sm:text-4xl font-medium mb-8 sm:mb-10 text-left">
           Accolades
