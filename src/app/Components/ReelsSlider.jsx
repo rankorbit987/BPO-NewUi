@@ -62,7 +62,7 @@ export default function MusicSlider() {
   return (
     <div className="flex flex-col justify-center items-center bg-[#c394f8] p-4 relative my-10">
       <div className="mb-[10px] text-center">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-8 text-black">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mt-8 text-black">
           Content Created By Team
         </h1>
         <p className="text-lg md:text-xl mt-2 text-black">Watch our Latest Content</p>

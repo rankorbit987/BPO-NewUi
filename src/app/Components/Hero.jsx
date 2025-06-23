@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="min-h-screen overflow-hidden flex items-center justify-center bg-white px-4 sm:px-6 lg:px-20 py-20 md:py-0">
       <div className="text-left sm:text-center md:text-left w-full">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium leading-tight sm:leading-snug text-black">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-medium leading-tight sm:leading-snug text-black">
           <span className="block sm:inline">Your</span>{' '}
           <br className="sm:hidden" />
           <span className="inline-block relative">
