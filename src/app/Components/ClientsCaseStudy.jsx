@@ -6,7 +6,7 @@ import ContactUsButton from "../UI/Buttons/contactusBtn";
 
 export default function ClientCaseStudies() {
   return (
-    <div className="w-full px-4 sm:px-6 md:px-8 lg:px-20 py-12 md:py-16 flex flex-col items-start bg-white max-w-auto mx-auto">
+    <div className=" px-4 sm:px-6 md:px-8 lg:px-20 py-12 md:py-16 flex flex-col items-start mx-auto bg-white">
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight mb-10 text-black">
           We pride ourselves in delivering above and beyond to all of our clients
         </h1>
