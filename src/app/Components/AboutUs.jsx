@@ -12,9 +12,7 @@ export default function AboutUs() {
       <div className="mb-10 sm:mb-14 md:mb-16">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight mb-10 text-black">
           We are the alternative to the Big 4. We are technology consultants
-          with a difference; we get things done, offering independent advice
-          with your best interests at heart, combining expertise, experience and
-          commercial savvy to deliver your desired business outcomes.
+          with a difference; we get things done.
         </h1>
       </div>
 
