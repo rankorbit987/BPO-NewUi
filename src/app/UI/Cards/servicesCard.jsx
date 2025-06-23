@@ -1,13 +1,12 @@
 "use client";
 import React from "react";
-import Image from "next/image";  // <--- you missed this import!
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
-const CaseStudyCard = ({ image, label, title }) => {
+const ServicesCard = ({ image, label, title }) => {
   return (
     <div className="bg-white rounded-xl overflow-hidden border border-gray-300 cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1 h-full group/card">
       <div className="flex md:flex-row flex-col h-full">
-        {/* Image Section */}
         <div className="relative md:w-2/5 w-full h-60 md:h-full">
           <Image 
             src={image} 
@@ -19,8 +18,7 @@ const CaseStudyCard = ({ image, label, title }) => {
             {label}
           </div>
         </div>
-        
-        {/* Content Section */}
+
         <div className="p-4 md:p-6 flex flex-col justify-between flex-1">
           <h4 className="text-lg md:text-xl lg:text-2xl mb-4 md:mb-6">{title}</h4>
           <div className="flex justify-end">
@@ -34,4 +32,4 @@ const CaseStudyCard = ({ image, label, title }) => {
   );
 };
 
-export default CaseStudyCard;
+export default ServicesCard;

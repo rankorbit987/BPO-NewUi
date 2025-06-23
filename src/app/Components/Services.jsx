@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Plus, Minus } from "lucide-react";
 import servicesData from "../Data/servicesData";
-import CaseStudyCard from "../UI/Cards/servicesCard";
+import ServicesCard from "../UI/Cards/servicesCard";
 
 export default function Services() {
   const [activeCard, setActiveCard] = useState(null);
@@ -12,7 +12,7 @@ export default function Services() {
   };
 
   return (
-    <section id="services-section" className="w-full py-12 md:py-20 text-black bg-white"> {/* Added text-black here */}
+    <section id="services-section" className="w-full py-12 md:py-20 text-black bg-white">
       <div className="relative w-full max-w-full">
         {servicesData.map((item, index) => {
           const isActive = activeCard === index;
@@ -20,7 +20,7 @@ export default function Services() {
             <div
               key={index}
               className={`relative border-t-[3px] border-black rounded-t-[30px] rounded-b-none transition-all duration-300 group 
-                ${isActive ? "bg-white md:bg-white" : "bg-white"} 
+                ${isActive ? "bg-white" : "bg-white"} 
                 ${!isActive ? item.hoverColor : ""}
                 ${index !== 0 ? '-mt-4 sm:-mt-5 md:-mt-7' : ''}`}
             >
@@ -29,7 +29,7 @@ export default function Services() {
                 onClick={() => toggleCard(index)}
               >
                 <div className="flex flex-col text-left">
-                  <div className="text-xs sm:text-sm md:text-xs uppercase tracking-wider mb-1 sm:mb-2"> {/* Removed text-gray-500 */}
+                  <div className="text-xs sm:text-sm md:text-xs uppercase tracking-wider mb-1 sm:mb-2">
                     Service {index + 1}
                   </div>
                   <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium">
@@ -51,7 +51,7 @@ export default function Services() {
 
               {!isActive && (
                 <div className="px-6 md:px-8 pb-4 md:pb-6 hidden md:group-hover:block">
-                  <p className="text-base sm:text-lg md:text-xl leading-relaxed"> {/* Removed text-gray-700 */}
+                  <p className="text-base sm:text-lg md:text-xl leading-relaxed">
                     {item.content[0].description}
                   </p>
                 </div>
@@ -76,7 +76,7 @@ export default function Services() {
                       <div className="space-y-4 sm:space-y-6 md:space-y-8">
                         {item.content.map((service, idx) => (
                           <div key={idx} className="mb-4 sm:mb-6 md:mb-8">
-                            <p className="text-base sm:text-lg md:text-xl leading-relaxed"> {/* Removed text-gray-700 */}
+                            <p className="text-base sm:text-lg md:text-xl leading-relaxed">
                               {service.description}
                             </p>
                           </div>
@@ -90,17 +90,15 @@ export default function Services() {
                   </div>
 
                   {/* Case Study Cards Grid */}
-                  <div className="mt-8 sm:mt-10 md:mt-12">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
-                      {item.caseStudies.map((caseItem, idx) => (
-                        <CaseStudyCard
-                          key={idx}
-                          image={caseItem.image}
-                          label={caseItem.label}
-                          title={caseItem.title}
-                        />
-                      ))}
-                    </div>
+                  <div className="mt-8 sm:mt-10 md:mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {item.caseStudies.map((card, idx) => (
+                      <ServicesCard
+                        key={idx}
+                        image={card.image}
+                        label={card.label}
+                        title={card.title}
+                      />
+                    ))}
                   </div>
                 </div>
               )}
