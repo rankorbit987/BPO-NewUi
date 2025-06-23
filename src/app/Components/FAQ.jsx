@@ -53,7 +53,7 @@ export default function FaqSection() {
 
   return (
     <section id="faq-section" className="bg-white py-16 px-4 sm:px-6 lg:px-20 text-black w-full">
-      <div className="max-w-7xl mx-auto">
+      <div className="">
         {/* Top border above heading */}
         <div className="border-t-[3px] border-black pt-12 mb-12">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight">

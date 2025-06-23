@@ -12,15 +12,17 @@ export default function Hero() {
           <span className="inline-block relative">
             <div className="dropping-texts-wrapper">
               <div className="dropping-texts">
-                <div className="bg-green-400 px-2 rounded-lg">Get Done</div>
-                <div className="bg-blue-400 px-2 rounded-lg">Build Fast</div>
-                <div className="bg-purple-400 px-2 rounded-lg">Scale Smart</div>
-                <div className="bg-yellow-400 px-2 rounded-lg">Everything</div>
+                <div className="bg-green-400 px-2 rounded-lg">Caring</div>
+                <div className="bg-blue-400 px-2 rounded-lg">Flexible</div>
+                <div className="bg-purple-400 px-2 rounded-lg">Reliable</div>
+                <div className="bg-yellow-400 px-2 rounded-lg">Efficent</div>
+                <div className="bg-green-400 px-2 rounded-lg">Scalable</div>
+                <div className="bg-blue-400 px-2 rounded-lg">Cost-Saving</div>
               </div>
             </div>
           </span>
           <br className="hidden sm:block" />
-          Technology Consultancy
+          BPO Services Squad
         </h1>
 
         <div className="mt-8 sm:mt-10">

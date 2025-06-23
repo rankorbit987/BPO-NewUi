@@ -7,6 +7,7 @@ import InTheNumbers from "./Components/IntheNumbers";
 import ContactUs from "./Components/ContactForm";
 import AboutUs from "./Components/AboutUs";
 import FaqSection from "./Components/FAQ";
+import MusicSlider from "./Components/ReelsSlider";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
     <BusinessTrust/>
     <InTheNumbers/>
     <FaqSection/>
+    <MusicSlider/>
     <ContactUs/>
     </>
   );

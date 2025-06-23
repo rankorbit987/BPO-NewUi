@@ -9,7 +9,7 @@ const Navbar = () => {
     { href: "#about-us", label: "About us", id: "about-us" },
     { href: "#services-section", label: "Services", id: "services-section" },
     { href: "#faq-section", label: "FAQ", id: "faq-section" },
-    { href: "/", label: "Journal", id: "journal" },
+    
   ];
 
   const getLinkClasses = (id) =>

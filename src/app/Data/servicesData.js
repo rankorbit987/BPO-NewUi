@@ -2,254 +2,180 @@ import ContactUsButton from "../UI/Buttons/contactusBtn";
 
 const servicesData = [
   {
-    title: "Data",
+    title: "Automation AI Solutions",
     content: [
       {
-        title: "Data Strategy & Architecture",
-        description: "We develop comprehensive data strategies that align with your business objectives, creating roadmaps for data management and utilization. Our approach considers current capabilities while planning for future growth, ensuring scalability."
+        title: "Automation AI Solutions",
+        description: "Automation is not just about speeding up tasks. We create real conversations that help your customers instantly. Our AI understands, responds, and interacts with your customers across voice and chat channels, providing natural and smooth conversations without delays. From instant call handling to 24/7 chatbot support, our automation ensures faster service, happier customers, and scalable operations."
       },
       {
-        title: "Data Governance & Quality",
-        description: "Implementing robust governance frameworks to ensure data integrity, security, and compliance throughout its lifecycle. We establish clear policies, roles, and processes for data stewardship."
+        title: "Calling AI",
+        description: "Incoming calls get answered instantly. Our voice AI listens, responds, and handles common questions or routes complex calls to the right team. No more long hold times. Your customers feel heard from the first ring."
       },
       {
-        title: "Advanced Analytics & AI",
-        description: "Going beyond basic reporting to uncover deep insights through predictive modeling and machine learning. We help operationalize analytics by embedding them into business processes."
-      },
-      {
-        title: "Data Modernization",
-        description: "Transforming legacy data systems into modern, cloud-native platforms that enable agility. We migrate and consolidate data assets while minimizing disruption."
+        title: "Website Integrated AI (Chatbots)",
+        description: "Visitors want help now. Our chatbots provide instant answers, help customers navigate your site, book appointments, and capture leads, all while feeling personal and helpful. They work 24/7, even when your team sleeps."
       }
     ],
     buttons: <ContactUsButton />,
     hoverColor: "hover:bg-blue-400",
     activeColor: "bg-blue-400",
     caseStudies: [
-      {
-        image: "/images/ServiceCardsImages/imag1.webp",
-        label: "CASE STUDY",
-        title: "Strategy for Data Governance Optimisation for a UK Food & Drink Manufacturer"
-      },
-      {
-        image: "/images/ServiceCardsImages/imag2.webp",
-        label: "CASE STUDY",
-        title: "Modernizing Legacy Data Platforms for Global Supply Chain"
-      },
-      {
-        image: "/images/ServiceCardsImages/imag3.webp",
-        label: "CASE STUDY",
-        title: "Modernizing Legacy Data Platforms for Global Supply Chain"
-      }
+      { image: "/images/ServiceCardsImages/imag1.webp", label: "CASE STUDY", title: "Streamlining Customer Support for a National Retailer" },
+      { image: "/images/ServiceCardsImages/imag2.webp", label: "CASE STUDY", title: "Back-Office Optimization for a Financial Services Provider" },
+      { image: "/images/ServiceCardsImages/imag3.webp", label: "CASE STUDY", title: "AI Chatbot Deployment for Healthcare Appointment Booking" },
+      { image: "/images/ServiceCardsImages/imag4.webp", label: "CASE STUDY", title: "Global Voice AI Call Center Rollout" }
     ]
   },
 
   {
-    title: "Transformation",
+    title: "Customer Support",
     content: [
       {
-        title: "Digital Transformation Strategy",
-        description: "We create holistic digital transformation roadmaps that align technology investments with business outcomes. Our approach balances quick wins with long-term strategic initiatives."
+        title: "Customer Support Services",
+        description: "Our agents don’t read scripts — they listen, care, and solve problems. We handle your phone calls, emails, and chats with empathy and patience, treating every interaction as a chance to build trust. With training, quality checks, and continuous feedback, your customers always feel like they're speaking with your in-house team."
       },
       {
-        title: "Process Optimization",
-        description: "Identifying and reengineering inefficient processes through automation and technology enablement. We apply Lean and Six Sigma principles to eliminate waste and improve productivity."
+        title: "Angry Customer Handling",
+        description: "We calm frustrated customers quickly and turn negative experiences into loyalty."
       },
       {
-        title: "Change Management",
-        description: "Ensuring successful adoption of new technologies and ways of working through structured change programs. We address both the technical and human aspects of transformation."
+        title: "Confused Customer Assistance",
+        description: "We patiently guide confused customers and ensure they find solutions easily."
       },
       {
-        title: "Technology Implementation",
-        description: "End-to-end support for selecting, deploying, and integrating transformative technologies. We manage the complete implementation lifecycle from requirements to rollout."
+        title: "Happy Customer Engagement",
+        description: "We reinforce positive experiences, turning satisfied customers into long-term advocates."
       }
     ],
     buttons: <ContactUsButton />,
     hoverColor: "hover:bg-red-400",
     activeColor: "bg-red-400",
     caseStudies: [
-      {
-        image: "/images/ServiceCardsImages/imag1.webp",
-        label: "CASE STUDY",
-        title: "Enterprise-wide Digital Transformation of Retail Operations"
-      },
-      {
-        image: "/images/ServiceCardsImages/imag2.webp",
-        label: "CASE STUDY",
-        title: "Cloud Migration for Healthcare Systems"
-      },
-      {
-        image: "/images/ServiceCardsImages/imag3.webp",
-        label: "CASE STUDY",
-        title: "Modernizing Legacy Data Platforms for Global Supply Chain"
-      }
+      { image: "/images/ServiceCardsImages/imag1.webp", label: "CASE STUDY", title: "Multichannel Support Expansion for an E-commerce Platform" },
+      { image: "/images/ServiceCardsImages/imag2.webp", label: "CASE STUDY", title: "Invoice Processing Overhaul for a Global Manufacturer" },
+      { image: "/images/ServiceCardsImages/imag3.webp", label: "CASE STUDY", title: "24/7 Customer Support Launch for International Airline" }
     ]
   },
 
   {
-    title: "Strategic Resourcing Solutions",
+    title: "Virtual Assistant",
     content: [
       {
-        title: "Specialized Talent Acquisition",
-        description: "Our targeted recruitment strategies connect you with top-tier technology professionals across all disciplines. We leverage deep market knowledge and extensive networks."
+        title: "Virtual Assistance Services",
+        description: "Our virtual assistants handle all the small but critical tasks, keeping your schedule, inbox, and workload organized. From booking meetings to following up on invoices and managing research, we free your time so you can focus on growth while we handle the details."
       },
       {
-        title: "Flexible Workforce Solutions",
-        description: "We provide adaptable resourcing models to meet your changing business needs. From project-based contractors to managed teams, we offer scalable solutions."
+        title: "Schedule & Calendar Management",
+        description: "We manage your appointments, meetings, and deadlines, keeping your day smooth and predictable."
       },
       {
-        title: "Workforce Strategy & Planning",
-        description: "Developing comprehensive talent strategies that align with your business objectives and technology roadmap. We analyze current capabilities against future needs."
+        title: "Inbox & Communication Management",
+        description: "We handle emails, follow-ups, and communication tasks, ensuring timely responses and organization."
       },
       {
-        title: "Capability Development",
-        description: "Upskilling your existing workforce to meet evolving technology demands. We assess current skills and design targeted development programs."
+        title: "Task Execution & Research",
+        description: "We take care of repetitive tasks and detailed research so you stay focused on core business decisions."
       }
     ],
     buttons: <ContactUsButton />,
     hoverColor: "hover:bg-green-400",
     activeColor: "bg-green-400",
     caseStudies: [
-      {
-        image: "/images/ServiceCardsImages/imag1.webp",
-        label: "CASE STUDY",
-        title: "Scaling IT Talent Acquisition Across Global Regions"
-      },
-      {
-        image: "/images/ServiceCardsImages/imag2.webp",
-        label: "CASE STUDY",
-        title: "On-demand Tech Resources for Fast Growth Startups"
-      },
-      {
-        image: "/images/ServiceCardsImages/imag3.webp",
-        label: "CASE STUDY",
-        title: "Modernizing Legacy Data Platforms for Global Supply Chain"
-      }
+      { image: "/images/ServiceCardsImages/imag1.webp", label: "CASE STUDY", title: "Scalable Data Entry Solution for a Healthcare Network" },
+      { image: "/images/ServiceCardsImages/imag2.webp", label: "CASE STUDY", title: "Back-Office Process Automation for a Financial Services Provider" },
+      { image: "/images/ServiceCardsImages/imag3.webp", label: "CASE STUDY", title: "Virtual Assistant Services for Real Estate Firm" },
+      { image: "/images/ServiceCardsImages/imag4.webp", label: "CASE STUDY", title: "Remote Admin Support for Tech Startups" },
+      { image: "/images/ServiceCardsImages/imag5.webp", label: "CASE STUDY", title: "Appointment Coordination for Medical Clinics" }
     ]
   },
 
   {
-    title: "Technology",
+    title: "Appointment Setting",
     content: [
       {
-        title: "Cloud Solutions & Migration",
-        description: "Designing and implementing cloud architectures that deliver agility, scalability, and cost efficiency. We help select the right cloud model for each workload."
+        title: "Appointment Setting Services",
+        description: "We go beyond making calls. Our team studies your product, learns your pitch, qualifies leads, and books appointments that turn into real sales conversations. Every outreach is tailored and genuine. No scripts. No pushy tactics. Just meaningful conversations that move your sales forward."
       },
       {
-        title: "Cybersecurity & Risk Management",
-        description: "Comprehensive security solutions that protect your digital assets while enabling business innovation. We assess vulnerabilities and implement layered defenses."
+        title: "Lead Qualification",
+        description: "We pre-qualify prospects, ensuring your sales team meets only with highly relevant leads."
       },
       {
-        title: "Enterprise Architecture",
-        description: "Creating technology blueprints that align IT capabilities with business strategy. We develop standards and governance frameworks for consistent technology decision-making."
+        title: "Tailored Pitching",
+        description: "Our callers approach every prospect like part of your sales team, using your unique messaging."
       },
       {
-        title: "Emerging Technology Adoption",
-        description: "Practical implementation of AI, IoT, blockchain and other innovative technologies to create competitive advantage. We help identify high-value use cases."
+        title: "Calendar Booking",
+        description: "We handle scheduling and confirmations to keep your sales calendar full and organized."
       }
     ],
     buttons: <ContactUsButton />,
     hoverColor: "hover:bg-yellow-400",
     activeColor: "bg-yellow-400",
     caseStudies: [
-      {
-        image: "/images/ServiceCardsImages/imag1.webp",
-        label: "CASE STUDY",
-        title: "Enterprise Cloud Strategy for Global Finance Institution"
-      },
-      {
-        image: "/images/ServiceCardsImages/imag2.webp",
-        label: "CASE STUDY",
-        title: "Implementing AI & Machine Learning in Manufacturing Processes"
-      },
-      {
-        image: "/images/ServiceCardsImages/imag3.webp",
-        label: "CASE STUDY",
-        title: "Modernizing Legacy Data Platforms for Global Supply Chain"
-      }
+      { image: "/images/ServiceCardsImages/imag1.webp", label: "CASE STUDY", title: "Appointment Setting Success for SaaS Platform Expansion" },
+      { image: "/images/ServiceCardsImages/imag2.webp", label: "CASE STUDY", title: "Lead Conversion Boost for B2B Service Provider" },
+      { image: "/images/ServiceCardsImages/imag3.webp", label: "CASE STUDY", title: "Outreach Strategy for International Consulting Firm" },
+      { image: "/images/ServiceCardsImages/imag4.webp", label: "CASE STUDY", title: "Cold Call Appointment Growth for Insurance Brokerage" }
     ]
   },
 
   {
-    title: "Risk",
+    title: "Marketing Campaigns",
     content: [
       {
-        title: "Enterprise Risk Assessment",
-        description: "Comprehensive evaluation of risks across your organization, from cybersecurity to operational resilience. We identify vulnerabilities in processes, systems, and third-party relationships."
+        title: "Marketing Campaign Services",
+        description: "We design, build, and optimize targeted marketing campaigns that get your message in front of the right audience. From email to social ads, we handle the entire campaign lifecycle with constant tracking and improvement. Our creative, data-driven approach fuels lead generation and sales growth."
       },
       {
-        title: "Regulatory Compliance",
-        description: "Ensuring adherence to industry regulations and data protection standards. We help interpret complex requirements and implement appropriate controls."
+        title: "Email Campaigns",
+        description: "We craft sharp, effective email blasts that engage your audience and drive conversions."
       },
       {
-        title: "Security Governance",
-        description: "Establishing frameworks and policies that maintain strong security postures. We define clear roles and responsibilities for information security management."
+        title: "Social Media Advertising",
+        description: "We run paid social ad campaigns across platforms, reaching audiences where they scroll and click."
       },
       {
-        title: "Business Continuity Planning",
-        description: "Developing strategies to maintain critical operations during disruptions. We identify essential functions and create response plans for various scenarios."
+        title: "Funnel Building & Optimization",
+        description: "We design complete sales funnels, track metrics, and refine strategies for maximum lead flow."
       }
     ],
     buttons: <ContactUsButton />,
     hoverColor: "hover:bg-purple-400",
     activeColor: "bg-purple-400",
     caseStudies: [
-      {
-        image: "/images/ServiceCardsImages/imag1.webp",
-        label: "CASE STUDY",
-        title: "Risk Management Overhaul for Leading Logistics Firm"
-      },
-      {
-        image: "/images/ServiceCardsImages/imag2.webp",
-        label: "CASE STUDY",
-        title: "Compliance Framework Deployment for International Banking Group"
-      },
-      {
-        image: "/images/ServiceCardsImages/imag3.webp",
-        label: "CASE STUDY",
-        title: "Modernizing Legacy Data Platforms for Global Supply Chain"
-      }
+      { image: "/images/ServiceCardsImages/imag1.webp", label: "CASE STUDY", title: "Lead Generation Campaign for Tech Startup" },
+      { image: "/images/ServiceCardsImages/imag2.webp", label: "CASE STUDY", title: "Multichannel Marketing Rollout for National Franchise" },
+      { image: "/images/ServiceCardsImages/imag3.webp", label: "CASE STUDY", title: "Paid Ad Conversion Optimization for SaaS Company" },
+      { image: "/images/ServiceCardsImages/imag4.webp", label: "CASE STUDY", title: "Email Automation Campaign for eCommerce Brand" },
+      { image: "/images/ServiceCardsImages/imag5.webp", label: "CASE STUDY", title: "Social Media Growth Strategy for Global Apparel Brand" }
     ]
   },
 
   {
-    title: "Sustainability",
+    title: "Back-Office Optimization",
     content: [
       {
-        title: "ESG Strategy Development",
-        description: "Creating comprehensive environmental, social, and governance frameworks that align with business objectives. We help identify material issues and set measurable sustainability goals."
+        title: "Process Optimization",
+        description: "We identify and streamline inefficient back-office operations. Through automation and smarter workflows, we free your team to focus on growth and client service."
       },
       {
-        title: "Carbon Footprint Management",
-        description: "Measuring, reporting, and reducing organizational greenhouse gas emissions. We establish baseline measurements and develop reduction roadmaps."
+        title: "Invoice Processing Automation",
+        description: "We automate validation and reporting processes, reduce errors, and improve payment cycles for stable cash flow."
       },
       {
-        title: "Sustainable Operations",
-        description: "Implementing circular economy principles across your value chain. We identify opportunities to reduce waste and improve resource efficiency."
-      },
-      {
-        title: "Sustainability Reporting",
-        description: "Developing transparent disclosure frameworks that meet stakeholder and regulatory requirements. We help collect, analyze, and present ESG performance data."
+        title: "Data Entry & Verification",
+        description: "Our team ensures high accuracy and speed in data entry, reducing errors and improving reporting reliability."
       }
     ],
     buttons: <ContactUsButton />,
     hoverColor: "hover:bg-teal-400",
     activeColor: "bg-teal-400",
     caseStudies: [
-      {
-        image: "/images/ServiceCardsImages/imag1.webp",
-        label: "CASE STUDY",
-        title: "Full ESG Reporting Suite for Global Energy Firm"
-      },
-      {
-        image: "/images/ServiceCardsImages/imag2.webp",
-        label: "CASE STUDY",
-        title: "Circular Economy Strategy for Food Packaging Supplier"
-      },
-      {
-        image: "/images/ServiceCardsImages/imag3.webp",
-        label: "CASE STUDY",
-        title: "Modernizing Legacy Data Platforms for Global Supply Chain"
-      }
+      { image: "/images/ServiceCardsImages/imag1.webp", label: "CASE STUDY", title: "Invoice Processing Overhaul for a Global Manufacturer" },
+      { image: "/images/ServiceCardsImages/imag2.webp", label: "CASE STUDY", title: "Data Entry Automation for Healthcare Network" },
+      { image: "/images/ServiceCardsImages/imag3.webp", label: "CASE STUDY", title: "Back-Office Workflow Automation for SaaS Enterprise" }
     ]
   }
 ];
