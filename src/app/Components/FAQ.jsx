@@ -56,7 +56,7 @@ export default function FaqSection() {
       <div className="max-w-7xl mx-auto">
         {/* Top border above heading */}
         <div className="border-t-[3px] border-black pt-12 mb-12">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight">
           Frequently Asked Questions
         </h1>
         </div>

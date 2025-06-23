@@ -6,10 +6,10 @@ import LinkedinButton from '../UI/Buttons/ContactLinkedinBtn';
 
 export default function ContactUs() {
   return (
-    <section id='contact-form' className="min-h-screen bg-white px-4 sm:px-8 lg:px-16 py-20 grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-20">
+    <section id='contact-form' className="min-h-screen bg-white px-4 sm:px-8 lg:px-20 py-20 grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-20">
       {/* Left Content */}
       <div className="flex flex-col justify-center space-y-8 text-black">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold leading-tight">
           Drive Innovation in Your <br className="hidden md:inline" /> Business – Contact Us
         </h1>
 
@@ -100,8 +100,8 @@ export default function ContactUs() {
             className="p-3 rounded-md w-full bg-white text-black border border-gray-300 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-black"
           ></textarea>
 
-          <label className="flex items-start text-sm gap-2">
-            <input type="checkbox" className="mt-1" />
+          <label className="flex items-start text-sm gap-2 ">
+            <input type="checkbox" className="mt-1 cursor-pointer" />
             <span>
               I agree to receive other communications from Leading Resolutions.
             </span>
@@ -117,7 +117,7 @@ export default function ContactUs() {
 
           <button
             type="submit"
-            className="bg-black text-white rounded-md px-6 py-3 hover:bg-gray-800 transition mt-2 w-full sm:w-auto"
+            className="bg-black text-white rounded-md px-6 py-3 hover:bg-white hover:text-black hover:border-2 transition mt-2 cursor-pointer w-full sm:w-auto"
           >
             Send Message
           </button>
