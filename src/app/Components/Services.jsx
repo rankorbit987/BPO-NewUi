@@ -20,7 +20,7 @@ export default function Services() {
             <div
               key={index}
               className={`relative border-t-[3px] border-black rounded-t-[30px] rounded-b-none transition-all duration-300 group 
-                ${isActive ? "bg-white md:bg-white bg-gray-100" : "bg-white"} 
+                ${isActive ? "bg-white md:bg-white" : "bg-white"} 
                 ${!isActive ? item.hoverColor : ""}
                 ${index !== 0 ? '-mt-4 sm:-mt-5 md:-mt-7' : ''}`}
             >
